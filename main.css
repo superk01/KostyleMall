@@ -1,0 +1,294 @@
+
+	#remocon{
+		position: fixed;
+		left : 90%;
+		top : 200px;
+		width : 100px;
+		height : 100px;
+		border : 2px solid #ccc;
+		border-radius: 5px;
+		background : white;
+		z-index : 999;
+	}	
+	
+	#remocon .remocons{
+		padding-top : 6px;
+		padding-left : 20px;
+		border-top : 1px solid #ccc;
+		font-family: '맑은고딕', Malgun Gothic !important;
+	    font-size: 15px;
+	    color : #464646;
+		width : 80px;
+		height : 25px;
+	}
+	
+	#remocon .remocons a{
+		text-decoration: none;
+		color : #464646;
+	}
+	
+	.remoconsfrist{
+		padding-top : 6px;
+		padding-left : 20px;
+		border-top : 1px solid #ccc;
+		font-family: '맑은고딕', Malgun Gothic !important;
+	    font-size: 15px;
+		width : 80px;
+		height : 25px;
+		background : #ccc;
+	}
+		
+	.remoconsfrist a{
+		text-decoration: none;
+		color : white;
+	}
+		
+	
+	#topBar_tag #bag_tag{ 
+		position: absolute;
+		top: 16px;
+		left: 1045px;
+	}
+	
+	#topBar_tag #samu_tag{ 
+		position: absolute;
+		top: 143px;
+    	left: 405px;
+	}
+	
+	#topBar_tag #join{
+		position: absolute;
+		top: 14px;
+		left: 886px;
+	}
+	
+	#topBar_tag #c_center{
+		position: absolute;
+		top: 12px;
+		left: 1160px;
+	}
+	
+	.leftFloat{
+		float : left;
+	}
+	
+	.rightFloat{
+		float : right;
+	}
+	
+	ul, li{
+		list-style : none;
+	}
+	.inline{
+		display : inline;
+	}
+	
+	.none{
+		display : none;
+	}
+	#header_search{
+		top : 15px;
+	}
+	#searchDiv{  
+		margin-top : 7px;
+		margin-left : 15px;
+		margin-right : 30px;
+	}
+	#searchBox{
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 7px;
+		border-left : 4px solid #d00000;
+		border-top : 4px solid #d00000;
+		border-bottom : 4px solid #d00000;
+		z-index : 10;
+	}
+	
+	#searchInput{
+		border : 0px;
+	}
+	
+	#searchIcon{
+	position: relative;
+    top: 14px;
+    padding-left: 10px;
+    }
+    
+    .searchResultParent{
+    	font-size : 13px;
+   	    width: 201px;
+	    border: 1px solid #d00000;
+	    top: 108px;
+	    position: absolute;
+	    background: white;
+    }
+    .searchResultParent a{
+    	text-decoration:none;
+    }
+    
+    .searchResult{
+    	padding : 6px;
+    }
+    
+    #middleMenu{
+    	margin-top: 14px;
+    	margin-right : 10px;
+    }
+    
+    #headerbottomMenu{
+    	width : 100%;
+    	height : 42px;
+    	border-top: 1px solid #ccc;
+    	border-bottom: 2px solid black;
+    }
+    #headerbottomMenu div{
+  
+    }
+	
+	#headerbottomSlider{
+		width:100%;
+		height: 323px;
+	}
+	#headerbottomSlider img{
+		width:100%;
+		height: 323px;
+	}
+	
+	.totalTap{
+		
+		background : white;
+		top : 193px;
+		width:75%;
+		height: 0px;
+		margin-left: 12%;
+		margin-right: 10%;
+		position: absolute;
+		border-left : 1px dotted black;
+		border-right : 1px dotted black;
+		border-bottom : 1px dotted black;
+		font-family: '맑은고딕', Malgun Gothic !important;
+	    font-size: 13px;
+	    color : #464646;
+		z-index : 2;
+	}
+	
+	.totalTap > div{
+		border-left : 1px dotted black;
+		padding-left : 20px;
+		padding-top : 10px;
+		width : 110px;
+		height : 20px;
+	}
+	.totalTap > div.listTap1{
+		font-weight : bold;
+		color : #d00000;
+		border : none;
+		width : 180px;
+		height : 20px;
+	}
+	.totalTap a{
+		text-decoration: none;
+		color : #d00000;
+	}
+	
+	#headerSliderMenu{
+		margin-left : 15%;
+	}
+	
+	.headerSliderMenuItem{
+		padding-top: 10px;
+	    padding-bottom: 10px;
+	    padding-left: 49px;
+	    padding-right: 49px;
+	    font-family: '맑은고딕', Malgun Gothic !important;
+	    font-size: 12px;
+	    color : #464646;
+	    border: 1px solid #ccc;
+	}
+	.headerSliderMenuItem a{
+		color : #464646;
+		text-decoration: none;	
+	}
+	
+	.headerSliderMenuItemlast{
+		padding-top: 10px;
+	    padding-bottom: 10px;
+	    padding-left: 55px;
+	    padding-right: 55px;
+		border : 1px solid white;
+	}
+	
+	#dayProductTitle{
+		margin-top: 15px;
+		margin-left : 12%;
+		font-family: '맑은고딕', Malgun Gothic !important;
+	    font-size: 20px;
+	    color : #464646;
+	    font-weight: bold;
+	}
+	#sectionTop{
+		width : 100%;
+		height : 900px;
+	}
+	#sectionMiddle{
+		background : white;
+	 	margin-left: 15%;
+	    margin-right: 12%;
+	    margin-top: 10px;
+	    width: 67%;
+	    height: 0px;
+	    overflow: auto;
+	}
+	#sectionNomarl{
+	    top: 560px;
+	    position: absolute;
+	    z-index: -1;
+	    margin-left: 17%;
+	    margin-right: 12%;
+	    margin-top: 10px;
+	    width: 67%;
+	    height: 901px;
+	    overflow: auto;
+	}
+	
+	#sectionNomarlfont{
+		margin-bottom : 20px;
+		font-family: '맑은고딕', Malgun Gothic !important;
+	    font-size: 20px;
+	    color : #464646;
+	    font-weight: bold;
+	}
+	
+	#dayProductList{
+		margin-left : 3%;
+	}
+	.fristbox{
+		padding : 25px;
+		width : 40%;
+		height : 200px;
+		
+	}
+	.fristbox img{
+		width : 100%;
+		height : 200px;
+	}
+	
+	.mddilebox{
+		padding-top : 20px;
+		padding-bottom : 40px;
+		padding-left : 20px;
+		padding-right : 32px;
+		width : 157px;
+		height : 105px;
+		margin-botton: 10px;
+		border-top : 1px solid #ccc;
+		font-family: '맑은고딕', Malgun Gothic !important;
+	    font-size: 14px;	
+	    color : #464646;
+	    font-weight: bold;
+		
+	}
+	.mddilebox img{
+		width : 100%;
+		height : 110px;
+	}
